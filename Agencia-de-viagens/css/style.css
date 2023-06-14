@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #80808029;
+}
+
+
+
+/* Topo */
+
+header{
+    width: 100%;
+    height: 55px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.topo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-topo{
+    width: 32px;
+    height: 32px;
+}
+
+.titulo-topo{
+    font-size: 24px;
+    color: #5d15d1;
+    margin: 0 0 0 10px;
+}
+
+.limite-largura{
+    width: 100%;
+    max-width: 1024px;
+}
+
+/*FORMULARIO*/
+
+.orcamento-fundo{
+    width: 100%;
+    height: auto;
+    background-image: url('../img/bahia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.orcamento-area{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.orcamento-cabecalho{
+    width: 100%;
+    height: 35px;
+    background-color: #5D15D1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.orcamento-logo{
+    width: 20px;
+    height: 20px;
+    transform: rotate(-45deg);
+}
+
+.orcamento-descricao{
+    font-size: 14px;
+    color: #fff;
+    margin: 0 0 0 5px;
+}
+
+.orcamento-area-formulario{
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 25px 20px 25px;
+    box-sizing: border-box;
+}
+
+.orcamento-subtitulo-formulario{
+    font-size: 22px;
+    margin-bottom: 24px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label{
+    font-size: 16px;
+}
+
+.formulario input, .formulario select{
+    width: 100%;
+    height: 32px;
+    margin: 10px 0;
+}
+
+.formulario input{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+
+.formulario select{
+    padding: 0 3px;
+}
+
+.formulario-campo-duplo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario-campo-duplo div{
+    width: calc(50% - 10px);
+}
+
+.radio{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.radio div{
+    display: flex;
+    align-items: center;
+    width: 120px;
+}
+
+.radio input{
+    width: 15px;
+}
+
+.radio label{
+    margin: 0 0 0 8px;
+}
+
+.formulario button{
+    width: 160px;
+    height: 32px;
+    background-color: #5d15d1;
+    color: #fff;
+    font-size: 16px;
+    border-style: none;
+    margin: 12px 0 0 0;
+    cursor: pointer;
+}
+
+.ofertas-area, .natureza-area{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 32px auto 0 auto;
+}
+
+.titulo-area{
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+.subtitulo-area{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+}
+
+.ofertas-imagens{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferta-imagem-destaque{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+
+}
+
+.oferta-quatro-imagens, .natureza-imagem{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.oferta-quatro-imagens figure{
+    position: relative;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+    margin: 0 6px;;
+}
+
+.oferta-imagem-destaque img, .oferta-quatro-imagens img, .natureza-imagem img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.oferta-imagem-destaque figcaption, .oferta-quatro-imagens figcaption{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    background: rgb(0 0 0 / 50%);
+    font-size: 17px;
+    color: #fff;
+
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+
+.natureza-duas-imagens{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.natureza-imagem{
+    background-color: #fff;
+}
+
+.natureza-subtitulo{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.natureza-subtitulo h4{
+    font-size: 16px;
+}
+
+.natureza-subtitulo p{
+    margin: 15px 0 0 0;
+    color: grey;
+    font-size: 14px;
+}
+
+footer{
+    background-color: #5d15d1;
+    margin: 32px 0 0 0;
+    width: 100%;
+    
+}
+
+.rodape-area{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-container{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+}
+
+
+.rodape-container h3{
+    color: #fff;
+    margin: 0 0 15px 0;
+    font-size: 20px;
+}
+
+.rodape-container div{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.rodape-container img{
+    width: 18px;
+    height: 18px;
+
+}
+
+.rodape-container span{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 1100px){
+    .limite-largura{
+        width: 90%;
+    }
+
+    .ofertas-area, .natureza-area, .rodape-area{
+        width: 90%;
+
+    }
+}
+
+@media (max-width: 768px){
+    .formulario button{
+        width: 100%;
+    }
+
+    .ofertas-imagens{
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .oferta-quatro-imagens{
+        width: 100%;
+    }
+
+    .oferta-imagem-destaque, .oferta-quatro-imagens figure{
+        width: 100%;
+        height: 225px;
+        margin: 15px 0 0 0;
+    }
+
+    .natureza-duas-imagens{
+        flex-direction: column;
+    }
+
+    .natureza-imagem{
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+
+    .rodape-area{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rodape-container{
+        width: 250px;
+    }
+}
+
+@media (max-width: 540px){
+    .formulario-campo-duplo{
+        flex-direction: column;
+    }
+
+    .formulario-campo-duplo div{
+        width: 100%;
+    }
+
+    .radio{
+        flex-direction: column;
+    }
+
+    .radio div{
+        width: 100%;
+    }
+    
+}
